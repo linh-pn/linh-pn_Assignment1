@@ -1,8 +1,0 @@
-import pandas as pd
-
-# Load training dataset
-column_names = ['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country','income']
-train_data = pd.read_csv('adult.data',header=None, names = column_names)
-test_data = pd.read_csv('adult.test',header=None, names = column_names)
-print(train_data.head())
-print(test_data.head())
